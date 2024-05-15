@@ -43,35 +43,35 @@ The proposed solution is a comprehensive web platform named "GreenRecycle" that 
 
 **1. Interactive Map and Facility Locator** : The core feature of GreenRecycle is an interactive map that allows users to find e-waste collection points based on their location. This feature will include
 
-a. Geolocation Services: Automatically detect user location to show nearby facilities.
-b. Search and Filters: Users can search by zip code or city and filter results by criteria such as device type, facility services, and operational hours.
-c. Facility Profiles: Each facility will have a profile page with detailed information, including accepted items, operational guidelines, user reviews, and contact information.
+1. Geolocation Services: Automatically detect user location to show nearby facilities.
+2. Search and Filters: Users can search by zip code or city and filter results by criteria such as device type, facility services, and operational hours.
+3. Facility Profiles: Each facility will have a profile page with detailed information, including accepted items, operational guidelines, user reviews, and contact information.
 
 **2. Educational Pop-Ups** : Education is key to changing behavior. GreenRecycle will use engaging pop-ups to inform users
 
-a. Contextual Information: When a user inputs a device, pop-ups will provide relevant information about the hazardous components in that specific device.
-b. Interactive Content: Infographics, videos, and articles about the environmental and health impacts of improper e-waste disposal.
-c. Quiz and Certification: Users can take quizzes after reading the educational material to earn additional points and badges.
+1. Contextual Information: When a user inputs a device, pop-ups will provide relevant information about the hazardous components in that specific device.
+2. Interactive Content: Infographics, videos, and articles about the environmental and health impacts of improper e-waste disposal.
+3. Quiz and Certification: Users can take quizzes after reading the educational material to earn additional points and badges.
 
 **3. Incentive System** : To motivate users to dispose of e-waste correctly, GreenRecycle will implement a robust incentive system
 
-a. Device Model Input: Users can input their device model to get an estimated value of recoverable materials.
-b. Credit Point System: Points are awarded based on the estimated value and actual recycling of the device. Points can be tracked in the user’s account.
-c. Redeemable Rewards: Points can be redeemed for various rewards, including discounts on new electronics, donations to environmental causes, or even small monetary incentives.
+1. Device Model Input: Users can input their device model to get an estimated value of recoverable materials.
+2. Credit Point System: Points are awarded based on the estimated value and actual recycling of the device. Points can be tracked in the user’s account.
+3. Redeemable Rewards: Points can be redeemed for various rewards, including discounts on new electronics, donations to environmental causes, or even small monetary incentives.
 
 **Technical Implementation**
 
-a. Frontend Development: Using React for a dynamic and responsive user interface.
-b. Backend Development: Node.js with Express for server-side operations, MongoDB for data storage, and APIs for geolocation and facility data integration.
-c. Third-party Integrations: Integration with Google Maps API for the locator service and educational content providers for environmental and health information.
+1. Frontend Development: Using React for a dynamic and responsive user interface.
+2. Backend Development: Node.js with Express for server-side operations, MongoDB for data storage, and APIs for geolocation and facility data integration.
+3. Third-party Integrations: Integration with Google Maps API for the locator service and educational content providers for environmental and health information.
 
 **User Experience Flow**
 
-a. Accessing the Site: Users visit GreenRecycle and can immediately see an interactive map with their current location.
-b. Finding a Facility: Users enter their device type and location, and the map updates with nearby facilities.
-c. Learning: As users search, educational pop-ups provide information about the environmental impact of their specific e-waste.
-d. Inputting Device Model: Users input their device model to see potential recoverable materials and earn points.
-e. Earning and Redeeming Points: Users drop off their e-waste at a facility and earn points, which they can track and redeem on the platform.  
+1. Accessing the Site: Users visit GreenRecycle and can immediately see an interactive map with their current location.
+2. Finding a Facility: Users enter their device type and location, and the map updates with nearby facilities.
+3. Learning: As users search, educational pop-ups provide information about the environmental impact of their specific e-waste.
+4. Inputting Device Model: Users input their device model to see potential recoverable materials and earn points.
+5. Earning and Redeeming Points: Users drop off their e-waste at a facility and earn points, which they can track and redeem on the platform.  
 
 ## Flowchart
 
